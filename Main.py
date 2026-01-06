@@ -5,7 +5,7 @@ from sklearn.exceptions import ConvergenceWarning
 warnings.filterwarnings("ignore", category=ConvergenceWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
 
-from Preprocessing2 import X_train, y_train
+from Preprocessing import X_train, y_train
 from Classification import run_classification
 from ClassificationStatisticalTests import run_statistical_tests
 
